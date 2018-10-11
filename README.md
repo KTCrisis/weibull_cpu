@@ -1,6 +1,5 @@
-# Python Class for Preventive Cost and Time Calculation
-
-Class to calculate best preventive time based on Weibull Distribution
+# Python Class for Preventive Time Calculation
+Small class with plot methods
 
 # Init CPU with parameters
  
