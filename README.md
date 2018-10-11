@@ -8,7 +8,7 @@ Class to calculate best preventive time based on Weibull Distribution
  cost_ca = Cost of Corrective Repair
  cost_pa = Cost of Preventive Repair
  
- Example: cpu = CPU(2, 500, 20, 100)
+ Example: cpu = CPU(wb_beta = 2, wb_eta = 500, cost_ca= 100, cost_pa = 5)
  
  Possible method
  Plot Unreliability : plot_Ft(xmin, xmax, step) -> Create the x axis for the plot from 0 to 100 hours with 1 hour step
