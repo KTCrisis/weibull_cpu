@@ -17,3 +17,4 @@ Class to calculate best preventive time based on Weibull Distribution
  Plot Reliability : plot_Rt(xmin, xmax, step)
  Plot Cost Per Unit: plot_cput(xmin, xmax, step)
  
+![alt text](https://github.com/KTCrisis/cost_preventive/cost_per_unit.png)
