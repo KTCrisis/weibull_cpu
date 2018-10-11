@@ -1,6 +1,7 @@
 # cost_preventive
 Class to calculate best preventive time based on Weibull Distribution
-Init CPU with parameters
+
+***Init CPU with parameters***
  
  - wb_beta = Beta of Weibull Distribution
  
