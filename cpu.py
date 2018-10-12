@@ -26,6 +26,9 @@ class CPU(object):
         return 1-exp(-(x/wb_eta)**wb_beta)
 
     def cput(self, x):
+            """
+            Return the solution of the equation (cost_pa * Rt + cost_ca * Ft) / integral(Rsds)
+            """
         cost_ca, cost_pa = self.cost_ca, self.cost_pa
         a = (cost_pa * self._Rt(x) + cost_ca * self._Ft(x))
         b = integrate.quad(lambda x: self._Rt(x), 0, x)[0]
