@@ -1,5 +1,8 @@
-# Python Class for Preventive Time Calculation
-Small class with plot methods
+# Python Class for Preventive Time Calculation based on Cost Per Unit
+This python script has for goal to plot and find the optimal time for preventime maintenance.
+It's useful for reliability and maintenance engineer who define when to repair units before failure.
+
+Read : https://www.weibull.com/hotwire/issue96/relbasics96.htm for more details
 
 # Init CPU with parameters
  
